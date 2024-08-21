@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3DTool", "P3DTool\P3DTool.csproj", "{E11E58CB-0E79-4CD4-8F01-326FFA0D9A09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetP3DLib", "..\NetP3DLib\NetP3DLib\NetP3DLib\NetP3DLib.csproj", "{3F0C482A-0653-4412-8D9B-6A6B08EE5FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E11E58CB-0E79-4CD4-8F01-326FFA0D9A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11E58CB-0E79-4CD4-8F01-326FFA0D9A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11E58CB-0E79-4CD4-8F01-326FFA0D9A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11E58CB-0E79-4CD4-8F01-326FFA0D9A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0C482A-0653-4412-8D9B-6A6B08EE5FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0C482A-0653-4412-8D9B-6A6B08EE5FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0C482A-0653-4412-8D9B-6A6B08EE5FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0C482A-0653-4412-8D9B-6A6B08EE5FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0220A8F1-17D1-43CD-9BDD-82010883F900}
+	EndGlobalSection
+EndGlobal

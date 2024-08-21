@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "P3DTool": {
+      "commandName": "Project",
+      "commandLineArgs": "-s -sa -sis -d -i \"C:\\SHAR\\art\\l1z1.p3d\" -i \"C:\\SHAR\\art\\l1z1.p3d\" -o l1z1.p3d"
+    }
+  }
+}
