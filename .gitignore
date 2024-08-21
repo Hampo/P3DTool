@@ -397,3 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 P3DTool/Publish.bat
+P3DTool/Test.ps1
+P3DTool/P3DTool/Properties/launchSettings.json
