@@ -8,9 +8,9 @@
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    <AssemblyVersion>1.0</AssemblyVersion>
-    <FileVersion>1.0</FileVersion>
-    <Version>1.0</Version>
+    <AssemblyVersion>1.1</AssemblyVersion>
+    <FileVersion>1.1</FileVersion>
+    <Version>1.1</Version>
     <Title>P3DTool</Title>
     <Authors>Proddy</Authors>
     <Company>Donut Team</Company>
