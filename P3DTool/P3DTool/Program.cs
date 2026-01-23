@@ -227,11 +227,12 @@ try
         {
             foreach (var chunk in inputFile.Chunks)
                 if (!outputFile.Chunks.Contains(chunk))
-                    outputFile.Chunks.Add(chunk);
+                    outputFile.Chunks.Add(chunk.Clone());
         }
         else
         {
-            outputFile.Chunks.AddRange(inputFile.Chunks);
+            foreach (var chunk in inputFile.Chunks)
+                outputFile.Chunks.Add(chunk.Clone());
         }
     }
 
@@ -285,7 +286,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"There was an error generating mipmaps: {ex}");
+    Console.WriteLine($"There was an error: {ex}");
     Console.WriteLine("Press any key to exit . . .");
     Console.ReadKey(true);
 }
